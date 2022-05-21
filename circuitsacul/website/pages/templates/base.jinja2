@@ -5,12 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% block title %}CircuitSacul's Website{% endblock %}</title>
 
-        {% block top_head_static %}
-        {% endblock %}
-
+        {% block head_static %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-
-        {% block bottom_head_static %}
+        <link rel="shortcut icon" type="image/png" href="{{ url_for('static', path='img/favicon.png') }}"/>
         {% endblock %}
     </head>
     <body>
