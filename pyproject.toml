@@ -10,7 +10,7 @@ authors = ["CircuitSacul <circuitsacul@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fastapi = "^0.78.0"
+fastapi = "^0.79.0"
 uvicorn = "^0.17.6"
 Jinja2 = "^3.1.2"
 
